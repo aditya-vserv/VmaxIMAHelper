@@ -1,0 +1,42 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VmaxIMAHelper
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import GoogleInteractiveMediaAds
+import Swift
+import UIKit
+import Vmax
+@_exported import VmaxIMAHelper
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers public class VmaxAdIMAInstream : ObjectiveC.NSObject, Vmax.VmaxAd {
+  @objc deinit
+  public func prepare(adResponse: Swift.String, delegate: Vmax.VmaxAdDelegate)
+  public func render(container: UIKit.UIView)
+  public static func getSignatures() -> [Swift.String]
+  public func pause()
+  public func resume()
+  public func close()
+  public func set(layout: Vmax.VmaxLayout)
+  @objc override dynamic public init()
+}
+extension VmaxIMAHelper.VmaxAdIMAInstream : Vmax.VmaxAdAssetDelegate {
+  public func onPrepared<T>(asset: Vmax.VmaxAdAssetHelper, result: T)
+  public func onPrepareFailed(asset: Vmax.VmaxAdAssetHelper, error: Vmax.VmaxError)
+  public func onRendered<T>(asset: Vmax.VmaxAdAssetHelper, result: T)
+  public func onRenderFailed(asset: Vmax.VmaxAdAssetHelper, error: Vmax.VmaxError)
+  public func onClosed(asset: Vmax.VmaxAdAssetHelper)
+  public func onClicked(asset: Vmax.VmaxAdAssetHelper)
+  public func onClickedComplete(asset: Vmax.VmaxAdAssetHelper)
+}
+extension VmaxIMAHelper.VmaxAdIMAInstream : Vmax.VmaxMediaEventsDelegate {
+  public func set(vmaxMediaEvents: [Vmax.VmaxMediaEvents])
+}
+extension VmaxIMAHelper.VmaxAdIMAInstream : Vmax.VmaxInstreamAd {
+  public func update(container view: UIKit.UIView)
+}
+extension VmaxIMAHelper.VmaxAdIMAInstream : Vmax.VmaxNetworkAd {
+  public func set(keywords: [Swift.String])
+  public func set(customTargeting: [Swift.String : Swift.String])
+}

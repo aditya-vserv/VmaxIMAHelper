@@ -1,0 +1,11 @@
+framework module VmaxIMAHelper {
+  umbrella header "VmaxIMAHelper.h"
+
+  export *
+  module * { export * }
+}
+
+module VmaxIMAHelper.Swift {
+  header "VmaxIMAHelper-Swift.h"
+  requires objc
+}
