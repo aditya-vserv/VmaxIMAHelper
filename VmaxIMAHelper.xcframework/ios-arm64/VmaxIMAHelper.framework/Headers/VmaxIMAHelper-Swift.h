@@ -252,9 +252,11 @@ using UInt = size_t;
 
 #if defined(__OBJC__)
 
+/// VmaxAdIMAInstream allows you draw <code>Instream</code> ad experiences using Google Interactive Media Ads.
 SWIFT_CLASS("_TtC13VmaxIMAHelper17VmaxAdIMAInstream")
 @interface VmaxAdIMAInstream : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 

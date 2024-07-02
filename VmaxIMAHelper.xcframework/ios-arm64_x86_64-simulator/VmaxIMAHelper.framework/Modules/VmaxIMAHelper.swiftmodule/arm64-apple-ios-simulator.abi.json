@@ -120,6 +120,32 @@
         "children": [
           {
             "kind": "Function",
+            "name": "set",
+            "printedName": "set(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdDelegate",
+                "printedName": "Vmax.VmaxAdDelegate",
+                "usr": "s:4Vmax0A10AdDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxIMAHelper0A13AdIMAInstreamC3set8delegatey0A00aC8Delegate_p_tF",
+            "mangledName": "$s13VmaxIMAHelper0A13AdIMAInstreamC3set8delegatey0A00aC8Delegate_p_tF",
+            "moduleName": "VmaxIMAHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "prepare",
             "printedName": "prepare(adResponse:delegate:)",
             "children": [
@@ -294,30 +320,85 @@
             "funcSelfKind": "NonMutating"
           },
           {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(adInfo:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "VmaxAdIMAInstream",
-                "printedName": "VmaxIMAHelper.VmaxAdIMAInstream",
-                "usr": "c:@M@VmaxIMAHelper@objc(cs)VmaxAdIMAInstream"
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VmaxAdInfo",
+                "printedName": "Vmax.VmaxAdInfo",
+                "usr": "s:4Vmax0A6AdInfoC"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "c:@M@VmaxIMAHelper@objc(cs)VmaxAdIMAInstream(im)init",
-            "mangledName": "$s13VmaxIMAHelper0A13AdIMAInstreamCACycfc",
+            "declKind": "Func",
+            "usr": "s:13VmaxIMAHelper0A13AdIMAInstreamC3set6adInfoy0A00acG0C_tF",
+            "mangledName": "$s13VmaxIMAHelper0A13AdIMAInstreamC3set6adInfoy0A00acG0C_tF",
             "moduleName": "VmaxIMAHelper",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
+              "AccessControl"
             ],
-            "init_kind": "Designated"
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(mediaLoadTimeout:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxIMAHelper0A13AdIMAInstreamC3set16mediaLoadTimeoutySi_tF",
+            "mangledName": "$s13VmaxIMAHelper0A13AdIMAInstreamC3set16mediaLoadTimeoutySi_tF",
+            "moduleName": "VmaxIMAHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getVmaxAdInfo",
+            "printedName": "getVmaxAdInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Vmax.VmaxAdInfo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VmaxAdInfo",
+                    "printedName": "Vmax.VmaxAdInfo",
+                    "usr": "s:4Vmax0A6AdInfoC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxIMAHelper0A13AdIMAInstreamC03getaC4Info0A00acF0CSgyF",
+            "mangledName": "$s13VmaxIMAHelper0A13AdIMAInstreamC03getaC4Info0A00acF0CSgyF",
+            "moduleName": "VmaxIMAHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -572,6 +653,41 @@
           {
             "kind": "Function",
             "name": "update",
+            "printedName": "update(vmaxMediaEvents:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Vmax.VmaxMediaEvents]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VmaxMediaEvents",
+                    "printedName": "Vmax.VmaxMediaEvents",
+                    "usr": "s:4Vmax0A11MediaEventsP"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VmaxIMAHelper0A13AdIMAInstreamC6update15vmaxMediaEventsySay0A00agH0_pG_tF",
+            "mangledName": "$s13VmaxIMAHelper0A13AdIMAInstreamC6update15vmaxMediaEventsySay0A00agH0_pG_tF",
+            "moduleName": "VmaxIMAHelper",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
             "printedName": "update(container:)",
             "children": [
               {
@@ -679,9 +795,11 @@
         "moduleName": "VmaxIMAHelper",
         "declAttributes": [
           "AccessControl",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "ObjectiveC.NSObject"
@@ -789,24 +907,45 @@
   "ConstValues": [
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 373,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "BooleanLiteral",
-      "offset": 1058,
+      "offset": 953,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "StringLiteral",
-      "offset": 1094,
+      "offset": 989,
       "length": 4,
       "value": "\"Ad\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "IntegerLiteral",
-      "offset": 1214,
+      "offset": 1109,
       "length": 2,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1351,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1388,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdContentPlayhead.swift",
@@ -814,6 +953,13 @@
       "offset": 158,
       "length": 21,
       "value": "\"VmaxIMAHelper.VmaxAdContentPlayhead\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdIMAInstream.swift",
+      "kind": "IntegerLiteral",
+      "offset": 435,
+      "length": 1,
+      "value": "5"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/IMAMarkup.swift",

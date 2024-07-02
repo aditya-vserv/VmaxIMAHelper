@@ -10,8 +10,9 @@ import Vmax
 @_exported import VmaxIMAHelper
 import _Concurrency
 import _StringProcessing
-@objc @_inheritsConvenienceInitializers public class VmaxAdIMAInstream : ObjectiveC.NSObject, Vmax.VmaxAd {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VmaxAdIMAInstream : ObjectiveC.NSObject, Vmax.VmaxAd {
   @objc deinit
+  public func set(delegate: Vmax.VmaxAdDelegate)
   public func prepare(adResponse: Swift.String, delegate: Vmax.VmaxAdDelegate)
   public func render(container: UIKit.UIView)
   public static func getSignatures() -> [Swift.String]
@@ -19,7 +20,9 @@ import _StringProcessing
   public func resume()
   public func close()
   public func set(layout: Vmax.VmaxLayout)
-  @objc override dynamic public init()
+  public func set(adInfo: Vmax.VmaxAdInfo)
+  public func set(mediaLoadTimeout: Swift.Int)
+  public func getVmaxAdInfo() -> Vmax.VmaxAdInfo?
 }
 extension VmaxIMAHelper.VmaxAdIMAInstream : Vmax.VmaxAdAssetDelegate {
   public func onPrepared<T>(asset: Vmax.VmaxAdAssetHelper, result: T)
@@ -32,6 +35,7 @@ extension VmaxIMAHelper.VmaxAdIMAInstream : Vmax.VmaxAdAssetDelegate {
 }
 extension VmaxIMAHelper.VmaxAdIMAInstream : Vmax.VmaxMediaEventsDelegate {
   public func set(vmaxMediaEvents: [Vmax.VmaxMediaEvents])
+  public func update(vmaxMediaEvents: [Vmax.VmaxMediaEvents])
 }
 extension VmaxIMAHelper.VmaxAdIMAInstream : Vmax.VmaxInstreamAd {
   public func update(container view: UIKit.UIView)
