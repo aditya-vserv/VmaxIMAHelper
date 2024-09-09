@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		3dJJtcXPfCRdKnBEDYIq5mct8so=
+		S0EPtIz7ZnQAlrc7DeaE9CEjWK4=
 		</data>
 		<key>Headers/VmaxIMAHelper-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9jd8tVgHNn/PbZD3yyG8qMPmsSk=
+		nVkv0+awt//ozu/77OSL5zibw9Y=
 		</data>
 		<key>Modules/VmaxIMAHelper.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -26,19 +26,19 @@
 		</data>
 		<key>Modules/VmaxIMAHelper.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jAE9tpeVHmnrC2ic5TaV92RwEpM=
+		wkCxnpRZrYKFGTylonGI4LZ2zYk=
 		</data>
 		<key>Modules/VmaxIMAHelper.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		r/gVA07zmL4Sa0B0H7VLhhNnJoM=
+		3BSdb95dGOFDh4M/AGXq0lWRaEc=
 		</data>
 		<key>Modules/VmaxIMAHelper.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jAE9tpeVHmnrC2ic5TaV92RwEpM=
+		wkCxnpRZrYKFGTylonGI4LZ2zYk=
 		</data>
 		<key>Modules/VmaxIMAHelper.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VG6A92kuhQcQQTPVuGoA0O4s/Bg=
+		nPBEA/QpWkQasMlo7hkbVyV4Vl0=
 		</data>
 		<key>Modules/VmaxIMAHelper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,19 +46,19 @@
 		</data>
 		<key>Modules/VmaxIMAHelper.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kCn/j0hMThhIUCnDCNPYUEj2ISc=
+		nYhjVkDcTgKDPoSW/FiaNWjKaNQ=
 		</data>
 		<key>Modules/VmaxIMAHelper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/7IO+g4ZxYHU07oYReC/DyPdFRg=
+		bFxL00Gazs6m1wmFakACj9ugzUg=
 		</data>
 		<key>Modules/VmaxIMAHelper.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kCn/j0hMThhIUCnDCNPYUEj2ISc=
+		nYhjVkDcTgKDPoSW/FiaNWjKaNQ=
 		</data>
 		<key>Modules/VmaxIMAHelper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		g+4Kut27k+xR8uHdRnaY5itF7Ck=
+		b3yk6uZ0eED1cXNIzqMzAYsJqr4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n0iKjpoAiLUE+jc5jqn/JCVpO4S/9UgOxS/ec/LI+4w=
+			SlvOELSzrxhBcQCXN7rVs3XTQ218jKNk8PLZswxzrxk=
 			</data>
 		</dict>
 		<key>Headers/VmaxIMAHelper-Swift.h</key>
@@ -103,28 +103,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AFsmyjDOwosvvnsHckinYu/RMgCz0ONYNYWyKMf/cb0=
+			Q5/IWVmLiFwIlPKCyD89MrMr6BgsMQXNXQJUsx/gfqM=
 			</data>
 		</dict>
 		<key>Modules/VmaxIMAHelper.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0AIh1E9CtQeXsbtMOYH/x4Bpj4PnTTA9/ANV61jGGag=
+			T3tPxl3tN8e8NIEydfAvWl7oCHIPUvxqWkjKoy1T4cM=
 			</data>
 		</dict>
 		<key>Modules/VmaxIMAHelper.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AFsmyjDOwosvvnsHckinYu/RMgCz0ONYNYWyKMf/cb0=
+			Q5/IWVmLiFwIlPKCyD89MrMr6BgsMQXNXQJUsx/gfqM=
 			</data>
 		</dict>
 		<key>Modules/VmaxIMAHelper.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zmpLU2/IfNFjdnlXrhUzbXtmMWQxmoWgTbevurF0DUk=
+			43LQIlakmSt5BHIH0cuRVJ+1Zo2FiZ45rTuQwyxI3CM=
 			</data>
 		</dict>
 		<key>Modules/VmaxIMAHelper.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -138,28 +138,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BtK7EzmZFpPvBVxpZeRqjxC6zEuzrsg/TrbYMZHvBMY=
+			9nxW1FvEwBBpF3iJSvqIXxJ0HRiZGlOptVhpe9QU+i8=
 			</data>
 		</dict>
 		<key>Modules/VmaxIMAHelper.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VvRVHi/2kdMS+cRdtuxkjpfZydx/B60Gr4BpiRnxdMc=
+			kuDBx3h7EiXewrAXSsTydPtlGnhYB+7xDa9YBrMNTxU=
 			</data>
 		</dict>
 		<key>Modules/VmaxIMAHelper.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BtK7EzmZFpPvBVxpZeRqjxC6zEuzrsg/TrbYMZHvBMY=
+			9nxW1FvEwBBpF3iJSvqIXxJ0HRiZGlOptVhpe9QU+i8=
 			</data>
 		</dict>
 		<key>Modules/VmaxIMAHelper.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CEsIDukwxZzFCIEZXPYTaDRBRpiDTlVClaBxMJIjZzo=
+			FUsBgKkZeNcVX44BBwZ5JGO2bYXEthA4nMMaWdZwpJw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
