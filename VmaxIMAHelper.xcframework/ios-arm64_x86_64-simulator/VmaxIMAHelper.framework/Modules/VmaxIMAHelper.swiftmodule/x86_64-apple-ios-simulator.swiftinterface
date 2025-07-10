@@ -1,41 +1,44 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name VmaxIMAHelper
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VmaxIMAHelper
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import DeveloperToolsSupport
 import Foundation
 import GoogleInteractiveMediaAds
 import Swift
+import SwiftUI
 import UIKit
 import Vmax
 @_exported import VmaxIMAHelper
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VmaxAdIMAInstream : ObjectiveC.NSObject, Vmax.VmaxAd {
   @objc deinit
-  public func set(delegate: Vmax.VmaxAdDelegate)
-  public func prepare(adResponse: Swift.String, delegate: Vmax.VmaxAdDelegate)
+  public func set(delegate: any Vmax.VmaxAdDelegate)
+  public func prepare(adResponse: Swift.String, delegate: any Vmax.VmaxAdDelegate)
   public func render(container: UIKit.UIView)
   public static func getSignatures() -> [Swift.String]
   public func pause()
   public func resume()
   public func close()
-  public func set(layout: Vmax.VmaxLayout)
+  public func set(layout: any Vmax.VmaxLayout)
   public func set(adInfo: Vmax.VmaxAdInfo)
   public func set(mediaLoadTimeout: Swift.Int)
   public func getVmaxAdInfo() -> Vmax.VmaxAdInfo?
 }
 extension VmaxIMAHelper.VmaxAdIMAInstream : Vmax.VmaxAdAssetDelegate {
-  public func onPrepared<T>(asset: Vmax.VmaxAdAssetHelper, result: T)
-  public func onPrepareFailed(asset: Vmax.VmaxAdAssetHelper, error: Vmax.VmaxError)
-  public func onRendered<T>(asset: Vmax.VmaxAdAssetHelper, result: T)
-  public func onRenderFailed(asset: Vmax.VmaxAdAssetHelper, error: Vmax.VmaxError)
-  public func onClosed(asset: Vmax.VmaxAdAssetHelper)
-  public func onClicked(asset: Vmax.VmaxAdAssetHelper)
-  public func onClickedComplete(asset: Vmax.VmaxAdAssetHelper)
+  public func onPrepared<T>(asset: any Vmax.VmaxAdAssetHelper, result: T)
+  public func onPrepareFailed(asset: any Vmax.VmaxAdAssetHelper, error: Vmax.VmaxError)
+  public func onRendered<T>(asset: any Vmax.VmaxAdAssetHelper, result: T)
+  public func onRenderFailed(asset: any Vmax.VmaxAdAssetHelper, error: Vmax.VmaxError)
+  public func onClosed(asset: any Vmax.VmaxAdAssetHelper)
+  public func onClicked(asset: any Vmax.VmaxAdAssetHelper)
+  public func onClickedComplete(asset: any Vmax.VmaxAdAssetHelper)
 }
 extension VmaxIMAHelper.VmaxAdIMAInstream : Vmax.VmaxMediaEventsDelegate {
-  public func set(vmaxMediaEvents: [Vmax.VmaxMediaEvents])
-  public func update(vmaxMediaEvents: [Vmax.VmaxMediaEvents])
+  public func set(vmaxMediaEvents: [any Vmax.VmaxMediaEvents])
+  public func update(vmaxMediaEvents: [any Vmax.VmaxMediaEvents])
 }
 extension VmaxIMAHelper.VmaxAdIMAInstream : Vmax.VmaxInstreamAd {
   public func update(container view: UIKit.UIView)

@@ -1,7 +1,7 @@
 framework module VmaxIMAHelper {
   umbrella header "VmaxIMAHelper.h"
-
   export *
+
   module * { export * }
 }
 

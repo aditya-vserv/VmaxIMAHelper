@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "VmaxIMAHelper",
+    "printedName": "VmaxIMAHelper",
     "children": [
       {
         "kind": "Import",
@@ -131,7 +131,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdDelegate",
-                "printedName": "Vmax.VmaxAdDelegate",
+                "printedName": "any Vmax.VmaxAdDelegate",
                 "usr": "s:4Vmax0A10AdDelegateP"
               }
             ],
@@ -163,7 +163,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdDelegate",
-                "printedName": "Vmax.VmaxAdDelegate",
+                "printedName": "any Vmax.VmaxAdDelegate",
                 "usr": "s:4Vmax0A10AdDelegateP"
               }
             ],
@@ -306,7 +306,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxLayout",
-                "printedName": "Vmax.VmaxLayout",
+                "printedName": "any Vmax.VmaxLayout",
                 "usr": "s:4Vmax0A6LayoutP"
               }
             ],
@@ -413,7 +413,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdAssetHelper",
-                "printedName": "Vmax.VmaxAdAssetHelper",
+                "printedName": "any Vmax.VmaxAdAssetHelper",
                 "usr": "s:4Vmax0A13AdAssetHelperP"
               },
               {
@@ -447,7 +447,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdAssetHelper",
-                "printedName": "Vmax.VmaxAdAssetHelper",
+                "printedName": "any Vmax.VmaxAdAssetHelper",
                 "usr": "s:4Vmax0A13AdAssetHelperP"
               },
               {
@@ -480,7 +480,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdAssetHelper",
-                "printedName": "Vmax.VmaxAdAssetHelper",
+                "printedName": "any Vmax.VmaxAdAssetHelper",
                 "usr": "s:4Vmax0A13AdAssetHelperP"
               },
               {
@@ -514,7 +514,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdAssetHelper",
-                "printedName": "Vmax.VmaxAdAssetHelper",
+                "printedName": "any Vmax.VmaxAdAssetHelper",
                 "usr": "s:4Vmax0A13AdAssetHelperP"
               },
               {
@@ -547,7 +547,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdAssetHelper",
-                "printedName": "Vmax.VmaxAdAssetHelper",
+                "printedName": "any Vmax.VmaxAdAssetHelper",
                 "usr": "s:4Vmax0A13AdAssetHelperP"
               }
             ],
@@ -574,7 +574,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdAssetHelper",
-                "printedName": "Vmax.VmaxAdAssetHelper",
+                "printedName": "any Vmax.VmaxAdAssetHelper",
                 "usr": "s:4Vmax0A13AdAssetHelperP"
               }
             ],
@@ -601,7 +601,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "VmaxAdAssetHelper",
-                "printedName": "Vmax.VmaxAdAssetHelper",
+                "printedName": "any Vmax.VmaxAdAssetHelper",
                 "usr": "s:4Vmax0A13AdAssetHelperP"
               }
             ],
@@ -628,12 +628,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Vmax.VmaxMediaEvents]",
+                "printedName": "[any Vmax.VmaxMediaEvents]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "VmaxMediaEvents",
-                    "printedName": "Vmax.VmaxMediaEvents",
+                    "printedName": "any Vmax.VmaxMediaEvents",
                     "usr": "s:4Vmax0A11MediaEventsP"
                   }
                 ],
@@ -663,12 +663,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[Vmax.VmaxMediaEvents]",
+                "printedName": "[any Vmax.VmaxMediaEvents]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "VmaxMediaEvents",
-                    "printedName": "Vmax.VmaxMediaEvents",
+                    "printedName": "any Vmax.VmaxMediaEvents",
                     "usr": "s:4Vmax0A11MediaEventsP"
                   }
                 ],
@@ -814,6 +814,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -900,6 +914,34 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VmaxIMAHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VmaxIMAHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VmaxIMAHelper"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "VmaxIMAHelper"
       }
     ],
     "json_format_version": 8
@@ -915,44 +957,37 @@
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "BooleanLiteral",
-      "offset": 953,
+      "offset": 996,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "StringLiteral",
-      "offset": 989,
+      "offset": 1032,
       "length": 4,
       "value": "\"Ad\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "IntegerLiteral",
-      "offset": 1109,
+      "offset": 1152,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "BooleanLiteral",
-      "offset": 1351,
+      "offset": 1394,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "BooleanLiteral",
-      "offset": 1388,
+      "offset": 1431,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdContentPlayhead.swift",
-      "kind": "StringLiteral",
-      "offset": 158,
-      "length": 21,
-      "value": "\"VmaxIMAHelper.VmaxAdContentPlayhead\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdIMAInstream.swift",
@@ -976,18 +1011,67 @@
       "value": "\"click-url\""
     },
     {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/IMAMarkup.swift",
+      "filePath": "\/Users\/admin_vserv\/Library\/Developer\/Xcode\/DerivedData\/VmaxIMAHelper-bfpzfrfsrqnzkrfdxkbjojzkoisk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VmaxIMAHelper\/IntermediateBuildFilesPath\/VmaxIMAHelper.build\/Release-iphoneos\/VmaxIMAHelper.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 366,
+      "offset": 732,
       "length": 12,
-      "value": "\"ad_tag_url\""
+      "value": "\"close_icon\""
     },
     {
-      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/IMAMarkup.swift",
+      "filePath": "\/Users\/admin_vserv\/Library\/Developer\/Xcode\/DerivedData\/VmaxIMAHelper-bfpzfrfsrqnzkrfdxkbjojzkoisk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VmaxIMAHelper\/IntermediateBuildFilesPath\/VmaxIMAHelper.build\/Release-iphoneos\/VmaxIMAHelper.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 404,
-      "length": 11,
-      "value": "\"click-url\""
+      "offset": 870,
+      "length": 10,
+      "value": "\"collapse\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/Library\/Developer\/Xcode\/DerivedData\/VmaxIMAHelper-bfpzfrfsrqnzkrfdxkbjojzkoisk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VmaxIMAHelper\/IntermediateBuildFilesPath\/VmaxIMAHelper.build\/Release-iphoneos\/VmaxIMAHelper.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1005,
+      "length": 10,
+      "value": "\"cta_icon\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/Library\/Developer\/Xcode\/DerivedData\/VmaxIMAHelper-bfpzfrfsrqnzkrfdxkbjojzkoisk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VmaxIMAHelper\/IntermediateBuildFilesPath\/VmaxIMAHelper.build\/Release-iphoneos\/VmaxIMAHelper.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1137,
+      "length": 8,
+      "value": "\"expand\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/Library\/Developer\/Xcode\/DerivedData\/VmaxIMAHelper-bfpzfrfsrqnzkrfdxkbjojzkoisk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VmaxIMAHelper\/IntermediateBuildFilesPath\/VmaxIMAHelper.build\/Release-iphoneos\/VmaxIMAHelper.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1263,
+      "length": 6,
+      "value": "\"mute\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/Library\/Developer\/Xcode\/DerivedData\/VmaxIMAHelper-bfpzfrfsrqnzkrfdxkbjojzkoisk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VmaxIMAHelper\/IntermediateBuildFilesPath\/VmaxIMAHelper.build\/Release-iphoneos\/VmaxIMAHelper.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1389,
+      "length": 7,
+      "value": "\"pause\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/Library\/Developer\/Xcode\/DerivedData\/VmaxIMAHelper-bfpzfrfsrqnzkrfdxkbjojzkoisk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VmaxIMAHelper\/IntermediateBuildFilesPath\/VmaxIMAHelper.build\/Release-iphoneos\/VmaxIMAHelper.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1514,
+      "length": 6,
+      "value": "\"play\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/Library\/Developer\/Xcode\/DerivedData\/VmaxIMAHelper-bfpzfrfsrqnzkrfdxkbjojzkoisk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VmaxIMAHelper\/IntermediateBuildFilesPath\/VmaxIMAHelper.build\/Release-iphoneos\/VmaxIMAHelper.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1643,
+      "length": 9,
+      "value": "\"skip_ad\""
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/Library\/Developer\/Xcode\/DerivedData\/VmaxIMAHelper-bfpzfrfsrqnzkrfdxkbjojzkoisk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VmaxIMAHelper\/IntermediateBuildFilesPath\/VmaxIMAHelper.build\/Release-iphoneos\/VmaxIMAHelper.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1774,
+      "length": 8,
+      "value": "\"unmute\""
     }
   ]
 }
