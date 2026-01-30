@@ -957,35 +957,35 @@
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "BooleanLiteral",
-      "offset": 996,
+      "offset": 1275,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "StringLiteral",
-      "offset": 1032,
+      "offset": 1311,
       "length": 4,
       "value": "\"Ad\""
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "IntegerLiteral",
-      "offset": 1152,
+      "offset": 1431,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "BooleanLiteral",
-      "offset": 1394,
+      "offset": 1673,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "BooleanLiteral",
-      "offset": 1431,
+      "offset": 1710,
       "length": 5,
       "value": "false"
     },
