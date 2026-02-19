@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name = "VmaxIMAHelper"
-  spec.version = "1.0.5"
+  spec.version = "1.0.6"
   spec.summary = "VmaxIMAHelper allows the publishers to display Google Interactive Media Ads via Vmax."
   spec.description = "VmaxIMAHelper allows the publishers to display Google Interactive Media Ads via Vmax."
   spec.homepage = "https://www.vmax.com"
