@@ -978,14 +978,21 @@
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "BooleanLiteral",
-      "offset": 1673,
+      "offset": 1672,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
       "kind": "BooleanLiteral",
-      "offset": 1710,
+      "offset": 1709,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/admin_vserv\/VservWorkspace\/Vserv_Git\/vmaxng-helper-ios-gam\/VmaxIMAHelper\/VmaxIMAHelper\/Source\/VmaxAdAssetHelperIMAInstream.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1746,
       "length": 5,
       "value": "false"
     },
